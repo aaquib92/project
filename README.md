@@ -1,2 +1,2 @@
 # project
-website and web app about courses
+web apps

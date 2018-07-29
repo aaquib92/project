@@ -1,0 +1,110 @@
+
+@font-face {
+font-family: "AEH";
+src: url("../fonts/AEH.ttf");
+}
+@font-face {
+font-family: "PhosphateSolid";
+src: url("../fonts/PhosphateSolid.ttf");
+}
+body{background:#ffffff; padding:0; margin:0;}
+
+#header {color:blue; width:100%;    background-color: #f1f1f1;  height:100px;}
+
+#sidebar{width:250px; float:left;     background-color:#212121;  ; height:600px;}
+
+#sidebar h2 {margin-left:10%; font-size:2em; color:brown; text-align:justify;}
+
+#header h1{color:#008cba; font-size:3em; font-family:comic sans MS; text-align:center; padding-top:20px;}
+
+
+#welcome {margin:10px; padding:10px; text-align:center; color:#444; font-family:'PhosphateSolid';}
+#welcome1 {margin:10px; padding:10px; text-align:center; color:#444;}
+
+
+  a {
+  display: block;
+  color:#fff;
+  text-decoration: none;
+  font-size:55%;
+  font-family: 'AEH';
+} 
+h2:hover{
+  background-color:#5fa2db;
+}
+
+ a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.btn2 {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: -4%;
+  margin-left: 89%;
+}
+table {
+    border-collapse: collapse;
+    margin-left:25%;
+    margin-top:5%;
+    width:60%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-right: 1px solid #fff;
+    font-size: 0.8em;
+    font-family: 'AEH';
+}
+
+tr:nth-child(even) {background-color:#C8E6C9;
+;}
+tr:nth-child(odd) {background-color:#FFEBEE;}
+th {
+    background-color:#607D8B
+;
+    color: white;
+}
+.btn_delete {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 11px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+.btn_update {
+  background-color:#008CBA;
+  border: none;
+  color: white;
+  padding: 11px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+input[type=date]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
